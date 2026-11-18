@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Veil Chat",
+    "slug": "veil-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#100E16",
+    "android": {
+      "package": "app.veilchat.mobile",
+      "allowBackup": false,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#100E16"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "./plugins/with-local-development-http"
+    ],
+    "icon": "./assets/icon.png"
+  }
+}
